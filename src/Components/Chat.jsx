@@ -1,6 +1,7 @@
 import React from "react";
 import "./Chat.css";
 import ChatHeader from "./ChatHeader";
+import Message from "./Message";
 import AddCircleIcon from "@material-ui/icons/AddCircle";
 import CardGiftcardIcon from "@material-ui/icons/CardGiftcard";
 import GiftIcon from "@material-ui/icons/Gif";
@@ -10,7 +11,12 @@ function Chat() {
   return (
     <div className="chat">
       <ChatHeader />
-      <div className="chat__messages"></div>
+
+      <div className="chat__messages">
+        <Message />
+        <Message />
+        <Message />
+      </div>
 
       <div className="chat__input">
         <AddCircleIcon fontSize="large" />
