@@ -43,6 +43,14 @@ function Chat() {
     setInput("");
   };
 
+  const deleteMessage = () => {
+
+  }
+
+  const editMessage = () => {
+    
+  }
+
   return (
     <div className="chat">
       <ChatHeader channelName={channelName} />
