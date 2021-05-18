@@ -6,6 +6,7 @@
 * CSS
 * React
 * Redux
+* Firebase
 
 ### Functonality of Discord Clone:
 It has following functionality:
